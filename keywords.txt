@@ -1,0 +1,23 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+PulseHeartLab	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+start	KEYWORD2
+stop	KEYWORD2
+readRaw	KEYWORD2
+readSignal	KEYWORD2
+getBPM	KEYWORD2
+getThreshold	KEYWORD2
+getPeakLevel	KEYWORD2
+getNoiseLevel	KEYWORD2
+setNotch	KEYWORD2
+getSQI	KEYWORD2
+onBeat	KEYWORD2
+setRefractory	KEYWORD2
+setThresholdAuto	KEYWORD2
+getBaseline	KEYWORD2

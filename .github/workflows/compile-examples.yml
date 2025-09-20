@@ -1,0 +1,26 @@
+name: Compile Examples
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: arduino/compile-sketches@v1
+        with:
+          fqbn: arduino:avr:uno
+          sketch-paths: |
+            examples/Basic
+            examples/BasicPlot
+            examples/BPMSerial
+            examples/Calibrate
+            examples/NotchDemo
+            examples/PhysioZooExport
+            examples/QualityDemo
+            examples/TemplateDemo
+            examples/TestSignal
+          libraries: |
+            - source-path: .
